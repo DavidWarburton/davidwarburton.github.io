@@ -1,0 +1,25 @@
+{
+  "name": "bgio-plain-js-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial code for following along with the Plain JS tutorial for boardgame.io.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+	"serve": "node -r esm src/server.js"
+  },
+  "browserslist": "defaults and supports async-functions",
+  "dependencies": {
+    "boardgame.io": "^0.45.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "keywords": [
+    "boardgame.io",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "ISC"
+}
